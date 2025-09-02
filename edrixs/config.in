@@ -10,9 +10,9 @@ num_gs=2
 maxiter=500
 linsys_max=1000
 min_ndim=1000
-nkryl=200
+nkryl=300
 eigval_tol=1e-08
 linsys_tol=1e-10
-omega_in=576.75
+omega_in=576.84
 gamma_in=0.6
 &end
