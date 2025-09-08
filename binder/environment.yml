@@ -2,7 +2,15 @@ name: notebook
 channels:
   - conda-forge
 dependencies:
-  - matplotlib
+  - ase==3.26.*
+  - edrixs=0.1.*
   - h5py==3.9.0
+  - lmfit==1.3.*
+  - matplotlib
+  - pymca==5.9.*
+  - pip
+  - pip:
+    - pymcaspec==0.1.*
+    - Pillow
 
 prefix: /srv/conda/envs/notebook
