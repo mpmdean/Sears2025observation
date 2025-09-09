@@ -16,6 +16,7 @@ The edrixs code can be run by installing `docker <https://www.docker.com/>`_ and
 
 .. code-block:: bash
 
+       export DOCKER_DEFAULT_PLATFORM=linux/amd64
        pip install jupyter-repo2docker
        jupyter-repo2docker --editable --Repo2Docker.platform=linux/amd64 .
 
