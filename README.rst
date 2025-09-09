@@ -6,7 +6,7 @@ Details of RIXS modeling are found in the edrixs subfolder, execute notebook in 
 
 How to cite
 -----------
-If this data is used, please cite J. Sears, B. Zager, W. He, C. A. Occhialini, Y. Shen, M. Lajer, J. W. Villanova, T. Berlijn, F. Yakhou-Harris, N. B. Brookes, D. G. Chica, X. Roy, E. Baldini, J. Pelliciari, V. Bisogni, S. Johnston, M. Mitrano, and M. P. M. Dean (2025)
+If this data is used, please cite J. Sears, B. Zager, W. He, C. A. Occhialini, Y. Shen, M. Lajer, J. W. Villanova, T. Berlijn, F. Yakhou-Harris, N. B. Brookes, D. G. Chica, X. Roy, E. Baldini, J. Pelliciari, V. Bisogni, S. Johnston, M. Mitrano, and M. P. M. Dean, Accepted in Physical Review Letters (2025)
 
 
 Run locally
@@ -17,7 +17,7 @@ The edrixs code can be run by installing `docker <https://www.docker.com/>`_ and
 .. code-block:: bash
 
        pip install jupyter-repo2docker
-       jupyter-repo2docker --editable .
+       jupyter-repo2docker --editable --Repo2Docker.platform=linux/amd64 .
 
 Change `tree` to `lab` in the URL for JupyterLab.
 
